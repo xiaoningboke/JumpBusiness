@@ -1,0 +1,10 @@
+[ 2017-06-03T14:13:06+08:00 ] ::1 /five/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003550s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006922s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent D:\phpStudy\WWW\five\simplewind\Core\Common\functions.php 第 1288 行.
+NOTIC: [8] Undefined index: url D:\phpStudy\WWW\five\application\Common\Controller\AppframeController.class.php 第 22 行.
+NOTIC: [2] Cannot modify header information - headers already sent D:\phpStudy\WWW\five\application\Common\Controller\AppframeController.class.php 第 29 行.
+

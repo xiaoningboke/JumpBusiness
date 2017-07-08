@@ -1,0 +1,25 @@
+[ 2017-06-19T09:01:28+08:00 ] ::1 /five/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000981s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000979s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-06-19T09:01:36+08:00 ] ::1 /five/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000628s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000824s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `qx_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `qx_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `qx_role_user` [ RunTime:0.0028s ]
+SQL: SELECT `role_id` FROM qx_role_user a INNER JOIN qx_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `qx_users` SET `user_login`='admin',`user_pass`='###6717b1f76f1f76fa1487d633d8b97fd1',`user_nicename`='admin',`user_email`='1@qq.com',`user_url`='',`avatar`=NULL,`sex`='0',`birthday`='2000-01-01',`signature`=NULL,`last_login_ip`='0.0.0.0',`last_login_time`='2017-06-19 09:01:36',`create_time`='2017-06-03 02:12:14',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0302s ]
+

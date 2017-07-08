@@ -1,0 +1,40 @@
+#content{
+    width: 1000px;
+    margin:0 auto;
+}
+#gsjj{
+    height: 32px;
+    background: url(../images/gsjj-bt.jpg);
+}
+#gsjj span{
+    font-size: 16px;
+    font-weight:bold;
+    line-height: 32px;
+    margin-left: 120px;
+}
+#gsjjimg{
+    float: left;
+    padding:0 10px 10px 10px;
+}
+#xhzy{
+    height: 32px;
+    background: url(../images/gsjj-bt.jpg);
+}
+#xhzy span{
+    font-size: 16px;
+    font-weight:bold;
+    line-height: 32px;
+    margin-left: 120px;
+}
+#bb{
+    font-size: 50px;
+}
+  p{
+    font-size:15px;
+  }
+.bottombox { background-color: #CCC; width:100%; }
+.fixed-bottom{ position:fixed; bottom:0; height:60px;background:#99CCFF;border:#ccc solid 1px; box-shadow:none;text-align:center;line-height:60px;}
+#duo{
+    height:420px;
+    width:1000px;
+}

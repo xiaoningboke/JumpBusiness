@@ -1,0 +1,12 @@
+[ 2017-06-22T19:46:43+08:00 ] ::1 /five/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001444s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003943s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001718s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `qx_users` [ RunTime:0.0744s ]
+SQL: SELECT * FROM `qx_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0006s ]
+
